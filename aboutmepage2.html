@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>D A F T</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="shao.style.css">
+</head>
+
+<body>
+
+<div class="container-fluid">
+<div id="sidebar" class="hidden-xs hidden-sm">
+       <header>
+         Daft Magazine
+       </header>
+
+      <nav id="sidenav">
+         <a href="/about">about me</a>
+         <div>
+           <a data-toggle="collapse" href="#collapseHome" aria-expanded="false" aria-controls="collapeHome">
+             home
+           </a>
+           <div class="collapse" id="collapseHome">
+             <!-- <ul>
+               <li><a href="/prints">print flyers</a>
+               </li>
+               <li><a href="/web">web design</a>
+               </li>
+               <li><a href="/arst">coursework</a>
+               </li> -->
+             </ul>
+           </div>
+         </div>
+         <div>
+           <a data-toggle="collapse" href="#collapseCode" aria-expanded="false" aria-controls="collapseCode">
+             submit
+           </a>
+           <div class="collapse" id="collapseCode">
+             <!-- <ul>
+               <li><a href="/bridge">bridgerename</a>
+               </li>
+               <li><a href="/tbot">twitter bot</a>
+               </li>
+               <li><a href="/comp">coursework</a>
+               </li>
+             </ul> -->
+           </div>
+         </div>
+         <div>
+           <a data-toggle="collapse" href="#collapseCategories" aria-expanded="false" aria-controls="collapseCategories">
+             categories
+           </a>
+           <div class="collapse" id="collapseCategories">
+             <ul>
+               <li><a href="/art">art</a>
+               </li>
+               <li><a href="/news">news</a>
+               </li>
+               <li><a href="/advice">advice</a>
+               </li>
+               <li><a href="/writing">writing</a>
+             </ul>
+           </div>
+         </div>
+         <a href="/contact">contact</a>
+       </nav>
+     </div>
+
+    <!-- PICTURES AND BIOS -->
+     <div class="container">
+       <div class="row justify-content-center">
+
+         <div class="col-sm-6">
+           <img src="fatou.jpg" alt="fatou" style="width:304px;height:228px;">
+           <p> Hi! My name is Fatou. I am sixteen years old and a rising junior. I hope this website reaches many people and that we continue to work on it in the future!</p>
+         </div>
+
+
+       <div class="col-sm-6">
+         <img src="dani.jpg" alt="dani" style="width:304px;height:228px;">
+         <p> Hello world, my name isa1 Dani. I am a senior. I love Python and Bootstrap. I hope this website will be a helping outlet to many people including teenagers around the world.</p>
+       </div>
+
+       <div class="col-sm-6">
+         <img src="alexis1.jpg" alt="alexis1" style="width:304px; height:228px;">
+         <br>
+         <p> Hi! My name is Alexis.I am seventeen years old and a rising senior.I hope that we continue posting on this website and expanding our platform . </p>
+       </div>
+
+       <div class="col-sm-6">
+         <img src="heaven.jpg" alt="heaven" style="width:304px; height:228px;">
+         <p> Hi! My name is Heaven-Lee.I am sixteen years old and a rising junior.I hope that this website lives up to its potential and is used by teens globally. </p>
+       </div>
+
+       <div class="col-sm-6">
+            <img src="mia.jpg" alt="mia" style="width:304px; height:228px;">
+            <p> Hi! My name is Mia. I am seventeen years old and a rising senior. I hope that people use this website as an outlet to share and learn about new things. </p>
+      </div>
+
+    </div> <!--row-->
+   </div
+  </div>
+
+  <style media="screen">
+  @media (max-width: 991px) {
+    /*css for mobile only goes here*/
+    .navbar {
+      height: 52px;
+      line-height: .5px;
+      background-color:white;
+    }
+
+    .navbar-collapse {
+      text-align: center;
+      background-color: white;
+      height: 100vh;
+    }
+
+    .navbar li {
+      text-align: center;
+    }
+
+    .navbar .navbar-nav {
+      margin:0;
+    }
+
+    .navbar-toggle {
+      max-width: 44px;
+    }
+
+    #content {
+      margin-left: 0;
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 7px;
+      height: 200vh;
+      margin-right: 50px;
+
+    }
+
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    #content {
+      width: 70%;
+      padding-left: 240px;
+      padding-top: 100px;
+    }
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  #sidebar {
+      position: absolute;
+      top:0;
+      left:0;
+      height: 100vh;
+      width: 240px;
+      background-color: white;
+      color:grey;
+      padding: 40px;
+  }
+
+  header {
+    height: 80px;
+    font-size: 20px;
+    color: pink;
+    margin-left: 20px;
+    text-align: right;
+    font-weight: 500;
+  }
+
+  #sidenav {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    margin-top: 3px;
+    float: left;
+    background-color: white;
+    text-align: right;
+  }
+
+  .navbar a, #sidenav a {
+    color: black;
+    font-weight: bold;
+  }
+
+    .navbar a:hover, #sidenav a:hover {
+    text-decoration: none;
+    color: pink;
+  }
+
+  #sidenav ul a {
+    text-decoration: none;
+    font-weight: normal;
+    color: grey;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+  .classDesign {
+    ul a
+    list-style-type: none;
+
+  }
+
+  .container {
+    padding: 2vw;
+  }
+
+  .row {
+    padding: 30px;
+  }
+  .column{
+    padding: 20px;
+    margin-right: 10px;
+    padding-right: 20px;
+    align-items: center;
+  }
+  p{
+    margin-right: 50px;
+    align-self: center;
+  }
+  }
+  </style>
+</body>
+
+
+
+</html>
